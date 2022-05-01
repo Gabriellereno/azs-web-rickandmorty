@@ -1,0 +1,112 @@
+body {
+  background: url('https://img.uhdpaper.com/wallpaper/rick-and-morty-portal-gun-928@0@e-preview.jpg?dl') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+margin-top: 3.5rem;
+color: #08c4e6;
+text-shadow: 2px 2px 3px rgb(255, 251, 0);
+}
+
+.title h1{
+    font-size: 50px;
+    }
+
+    .search input {
+        margin-right: 10px;
+        width: 25%;
+        height: 30%;
+        font-size: 15px;
+    }
+    @media (max-width: 700px) {
+        .search input {
+            margin-right: 5px;
+            margin-bottom: .5em;
+        }
+    }
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 3rem;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+
+
+
+.card {
+    margin: 1rem;
+    flex-basis: 45%;
+    padding: 1.5rem;
+    text-align: left;
+    color: #0d97af;
+    text-decoration: none;
+    border: 5px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s, ease, border-color 0.15s ease;
+    background-color: rgba(0, 0, 0, 0.637);
+    text-shadow: 1px 1px 1px rgb(255, 251, 0);
+    background: url('https://www.einerd.com.br/wp-content/uploads/2021/09/rick-and-morty-poster-890x466.jpg') center center no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card p {
+    font-size: 25px;
+}
+
+.card h2 {
+    font-size: 35px;  
+}
+
+.card div {
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    width: 650px;
+    height: 300px;
+}
+
+.card div p, h2, button {
+margin-top: 5px;
+margin-left: 15px;
+color: #0d97af;
+}
+.card:hover h2,
+.card:focus,
+.card:active {
+color: #08c4e6;
+}
+
+.card button {
+    background-color:#0d97af; 
+    border: none;
+    color: rgb(253, 245, 137);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 250px 0px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.card:hover button{
+    background-color: #008CBA;
+    color: white;
+}
