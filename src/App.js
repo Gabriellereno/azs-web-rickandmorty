@@ -1,7 +1,6 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/pages/Home'
-import Episode from './components/detalhes/Episode'
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home/Home";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/episode/:id" element={<Episode />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,23 @@
+body,
+h1,
+h2,
+p,
+span,
+button,
+input,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("https://img.uhdpaper.com/wallpaper/rick-and-morty-portal-gun-928@0@e-preview.jpg?dl")
+    center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: scroll;
+  z-index: 1;
+  overflow-x: hidden;
+}

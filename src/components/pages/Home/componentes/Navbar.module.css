@@ -1,0 +1,45 @@
+.menu {
+  max-width: 1100px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu span {
+  display: flex;
+  align-items: baseline;
+  color: #82cc20;
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: #000 1px 1px;
+}
+.menu h1 {
+  font-size: 3rem;
+  text-align: left;
+  -webkit-text-stroke: #dff51d 3px;
+}
+.menu h1::before {
+  position: absolute;
+  content: "RICK and MORTY";
+  color: #0b8aa0;
+  -webkit-text-stroke: #000 1.2px;
+}
+
+.search input {
+  border-radius: 4px;
+  height: 35px;
+  width: 250px;
+  background-color: transparent;
+  border: #82cc20 3px outset;
+  text-align: center;
+  font-size: 1rem;
+  -webkit-text-fill-color: #82cc20;
+  outline: none;
+  transition: all 0.5s ease;
+}
+.search input:focus {
+  -webkit-text-fill-color: #008cba;
+  border-color: #008cba;
+  width: 400px;
+}

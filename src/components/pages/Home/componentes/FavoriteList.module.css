@@ -1,0 +1,107 @@
+.favoritosBg {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favoritosBg span {
+  display: flex;
+  align-items: baseline;
+  color: #82cc20;
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: #000 1px 1px;
+}
+
+.favoritosBg h1 {
+  font-size: 3rem;
+  text-align: left;
+  -webkit-text-stroke: #dff51d 3px;
+}
+.favoritosBg h1::before {
+  position: absolute;
+  content: "Favorite";
+  color: #0b8aa0;
+  -webkit-text-stroke: #000 1.2px;
+}
+.episodesContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 30px;
+  z-index: 1;
+}
+.episode {
+  position: relative;
+  border-radius: 8px;
+
+  min-width: 250px;
+  min-height: 240px;
+  box-shadow: #333333 4px 4px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: url("https://www.einerd.com.br/wp-content/uploads/2021/09/rick-and-morty-poster-890x466.jpg")
+      center center no-repeat; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+.episode:hover {
+  scale: 110%;
+}
+.episodeConteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  height: 90%;
+  padding: 10px;
+  background-color: #1e3b61a6;
+  border-radius: 8px;
+  text-align: left;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.episodeConteudo:hover {
+  background-color: #1e4161c5;
+}
+
+.episodeConteudo h2 {
+  width: fit-content;
+  font-size: 1.5rem;
+  color: #82cc20;
+  text-shadow: #000 2px 2px 1px;
+  transition: all 0.4s ease;
+}
+
+.episodeConteudo div {
+  display: grid;
+  gap: 10px;
+}
+
+.episodeConteudo p {
+  width: max-content;
+  padding: 0px 6px;
+  font-size: 1rem;
+  color: #dff51d;
+  text-shadow: #000 2px 2px 5px;
+  transition: all 0.4s ease;
+}
+.episodeConteudo a p:hover {
+  color: #82cc20;
+}
